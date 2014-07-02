@@ -52,6 +52,10 @@ header {
   color: #464646;
 }
 
+.nav-right li a {
+  padding-bottom: 5px;
+}
+
 nav .on {
   border-bottom: 3px solid #464646;
 }

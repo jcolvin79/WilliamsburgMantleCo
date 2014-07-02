@@ -1,4 +1,6 @@
-<?php include("inc/header.php"); ?>
+<?php
+$section = "about";
+include("inc/header.php"); ?>
 
 <h1 class="shop-title">About</h1>
 
