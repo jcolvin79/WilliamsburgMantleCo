@@ -1,0 +1,301 @@
+/* Base */
+body {
+  background: #F1EEE7;
+  font-family: 'Open Sans', sans-serif;
+  color: #464646;
+
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+header {
+  height: 200px;
+  border-bottom: 8px double #464646;
+
+}
+
+.nav-left {
+  float: left;
+  margin-top: 135px;
+  margin-left: 100px;
+}
+
+.nav-left li {
+  display: inline-block;
+  margin-right: 150px;
+}
+
+.nav-right {
+  float: right;
+  margin-top: -95px;
+  margin-right: 100px;
+}
+
+.nav-right li {
+  display: inline;
+  margin-left: 150px;
+}
+
+.nav-right li a, .nav-left li a {
+  font: 700 1.25em 'PT sans', sans-serif;
+  color: #464646;
+}
+
+nav .on {
+  border-bottom: 3px solid #464646;
+}
+
+
+/* Logo */
+.logo {
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  width: 166px;
+  height: 200px;
+}
+
+.logo a {
+  background: url('../images/logo.jpg') no-repeat;
+  display: inline-block;
+  height: 200px;
+  width: 166px;
+}
+
+/* Title */
+.title-img {
+  width: 1000px;
+  height: 500px;
+  margin: 75px auto;
+  text-align: center;
+  background:
+    linear-gradient(
+      rgba(70, 70, 70, .5),
+      rgba(70, 70, 70, .5)
+    ),
+    url('../images/woodPile.jpg') no-repeat center;
+    background:
+      -webkit-linear-gradient(
+        rgba(70, 70, 70, .5),
+        rgba(70, 70, 70, .5)
+      ),
+      url('../images/woodPile.jpg') no-repeat center;
+}
+
+.title-copy h1 {
+  color: #FFF;
+  font-size: 4em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+
+.title-copy a {
+  color: #FFF;
+  padding: 10px;
+  border: 3px solid #FFF;
+}
+
+/* shop */
+.shop-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+.products {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.products li {
+  width: 264px;
+  height: 330px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 18px;
+}
+
+.products li a {
+  display: inline-block;
+  width: 100%;
+  height: 264px;
+}
+
+.products li h4 {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.products li p {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.products img {
+  border: 7px solid #FFF;
+  width: 100%;
+  height: 100%;
+}
+
+/* Shop Item */
+.item-picture {
+  float: left;
+  width: 450px;
+  height: 450px;
+  border: 10px solid #FFF;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+.item-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.item-details {
+  float: left;
+  width: 500px;
+  margin: 50px;
+}
+
+.breadcrumb {
+  margin-left: 60px;
+}
+
+.breadcrumb a {
+  font-size: .9em;
+}
+
+.item-details h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.item-details h1 span {
+  font-size: .75em;
+  margin-left: 20px;
+}
+
+.item-details p {
+  line-height: 1.5;
+}
+
+/* Order Form */
+form {
+margin-top: 25px;
+margin-bottom: 50px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input[type="submit"] {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
+  text-transform: uppercase;
+  background: #F1EEE7;
+  border: 2px solid #464646;
+  box-shadow: 2px 2px 2px #464646;
+  -webkit-box-shadow: 2px 2px 2px #464646;
+}
+
+form input[type="submit"]:hover {
+  box-shadow: 3px 3px 3px #464646;
+  -webkit-box-shadow: 3px 3px 3px #464646;
+  background: #FFF;
+}
+
+/* About */
+.about-container img {
+  border: 10px solid #FFF;
+  margin: 0 50px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+.about-container p {
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+/* Contact */
+#contact-area {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: 10px double #464646;
+  padding: 25px;
+  padding-bottom: 50px;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 20px 0px;
+  border: 2px solid #464646;
+}
+
+#contact-area textarea {
+  height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	box-shadow: 2px 2px 2px #464646;
+  -webkit-webkit-box-shadow: 2px 2px 2px #464646;
+  -moz-webkit-box-shadow: 2px 2px 2px #464646;
+  -ms-webkit-box-shadow: 2px 2px 2px #464646;
+  -o-webkit-box-shadow: 2px 2px 2px #464646;
+  background: #FFF;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+  margin: 15px 15px 0px 0px;
+}
+
+#contact-area label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 1.4em;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  border-top: 8px double #464646;
+  clear: both;
+}
+
+footer p {
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
